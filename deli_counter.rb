@@ -7,5 +7,6 @@ def line (array)
   print "The line is currently"
   array.each_with_index do |x,i|
     print "#{i+1}. #{x} "
+  end
 end
 end
