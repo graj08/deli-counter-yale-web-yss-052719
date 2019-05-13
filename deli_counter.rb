@@ -5,9 +5,9 @@ def line (array)
     puts "The line is currently empty."
   else
   output = String.new
-  output << "The line is currently: "
+  output << "The line is currently:"
   array.each_with_index do |x,i|
-    output << "#{i+1}. #{x} "
+    output << " #{i+1}. #{x}"
   end
   puts output
 end
