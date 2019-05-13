@@ -9,6 +9,6 @@ def line (array)
   array.each_with_index do |x,i|
     output << "#{i+1}. #{x} "
   end
-  output
+  puts output
 end
 end
